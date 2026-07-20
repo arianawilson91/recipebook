@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ariana's Recipe Box</title>
+  <meta name="description" content="A little collection of my favorite recipes.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍒</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1 class="site-title">Ariana's Recipe&nbsp;Box</h1>
+    <p class="site-tagline">A little collection of the things I love to make.</p>
+  </header>
+
+  <main class="container">
+    <nav class="filter-bar" id="filter-bar" aria-label="Recipe categories">
+      <!-- category pills render here -->
+    </nav>
+
+    <section class="recipe-grid" id="recipe-grid" aria-label="Recipes">
+      <!-- recipe cards render here -->
+    </section>
+
+    <p class="empty-note" id="empty-note" hidden>Nothing in this category yet.</p>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-scribble">made with butter &amp; love</p>
+  </footer>
+
+  <script src="js/recipes.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
