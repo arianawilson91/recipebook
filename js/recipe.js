@@ -24,8 +24,8 @@ if (!recipe) {
       <span class="card-category">${recipe.category}</span>
       <h1 class="detail-title">${recipe.title}</h1>
       <p class="card-meta detail-meta">
-        <span>⏱ ${recipe.time}</span>
-        <span>🍽 ${recipe.servings}</span>
+        <span>${recipe.time}</span>
+        <span>${recipe.servings}</span>
       </p>
     </header>
 

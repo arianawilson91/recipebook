@@ -7,12 +7,16 @@ const emptyNote = document.getElementById("empty-note");
 const categories = ["All", ...new Set(RECIPES.map(r => r.category))];
 let activeCategory = "All";
 
+function countFor(cat) {
+  return cat === "All" ? RECIPES.length : RECIPES.filter(r => r.category === cat).length;
+}
+
 function renderFilters() {
   filterBar.innerHTML = "";
   categories.forEach(cat => {
     const btn = document.createElement("button");
     btn.className = "filter-pill" + (cat === activeCategory ? " is-active" : "");
-    btn.textContent = cat;
+    btn.innerHTML = `${cat}<sup>${countFor(cat)}</sup>`;
     btn.setAttribute("aria-pressed", String(cat === activeCategory));
     btn.addEventListener("click", () => {
       activeCategory = cat;
@@ -37,13 +41,14 @@ function renderGrid() {
 
   grid.innerHTML = shown.map((recipe, i) => `
     <a class="recipe-card" href="recipe.html?id=${encodeURIComponent(recipe.id)}" style="--i: ${i}">
+      <span class="card-index">${String(i + 1).padStart(2, "0")}</span>
       ${cardMedia(recipe)}
       <div class="card-body">
         <span class="card-category">${recipe.category}</span>
         <h2 class="card-title">${recipe.title}</h2>
         <p class="card-meta">
-          <span>⏱ ${recipe.time}</span>
-          <span>🍽 ${recipe.servings}</span>
+          <span>${recipe.time}</span>
+          <span>${recipe.servings}</span>
         </p>
       </div>
     </a>
