@@ -6,10 +6,11 @@
 
 :root {
   --bg: #ffffff;
-  --linen: #f6f3ee;          /* soft tile / band background */
+  --linen: #f9dfec;          /* soft pink tile / band background */
+  --pink: #f2bada;           /* bubblegum accent band */
   --ink: #2d2d2b;            /* warm near-black */
   --ink-soft: #8a857c;       /* warm gray */
-  --olive: #4c4a35;          /* olive-taupe label color */
+  --olive: #b04a7e;          /* deep rose label/accent color */
   --espresso: #262624;       /* dark band */
   --cream: #f1ece3;          /* text on dark */
   --line: #e5e1d8;           /* hairlines */
@@ -24,7 +25,7 @@
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
-::selection { background: var(--olive); color: #fff; }
+::selection { background: var(--pink); color: var(--ink); }
 
 body {
   font-family: var(--font-serif);
@@ -230,7 +231,7 @@ body {
 
 .card-photo--emoji span { transition: transform 0.5s var(--ease); }
 
-.recipe-card:hover .card-photo--emoji { background: #efeae1; }
+.recipe-card:hover .card-photo--emoji { background: #f4cfe3; }
 .recipe-card:hover .card-photo--emoji span { transform: scale(1.09); }
 
 .card-body { padding: 0 0.5rem; }
@@ -497,7 +498,7 @@ body {
 /* ---------- footer: espresso band ---------- */
 
 .site-footer {
-  background: var(--espresso);
+  background: var(--pink);
   text-align: center;
   padding: 2.5rem 1.5rem 2.75rem;
   margin-top: 2rem;
@@ -506,7 +507,7 @@ body {
 .footer-scribble {
   font-family: var(--font-script);
   font-size: 1.9rem;
-  color: var(--cream);
+  color: var(--ink);
 }
 
 /* ============================================================

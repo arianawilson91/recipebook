@@ -28,6 +28,7 @@ const RECIPES = [
     emoji: "🍝",
     time: "35 min",
     servings: "4–6 servings",
+    image: "images/penne-alla-vodka.jpg",
     source: "https://www.thekitchn.com/penne-alla-vodka-recipe-23632022",
     ingredients: [
       "2 oz Parmesan cheese, finely grated (about 1/2 cup), plus more for serving",
@@ -63,6 +64,7 @@ const RECIPES = [
     emoji: "🍗",
     time: "35 min",
     servings: "2–4 servings",
+    image: "images/blackened-chicken.jpg",
     source: "https://www.chelseasmessyapron.com/blackened-chicken/",
     ingredients: [
       "1 lb boneless, skinless chicken thighs (or breasts)",
@@ -93,6 +95,7 @@ const RECIPES = [
     emoji: "🧀",
     time: "1 hr",
     servings: "12 servings",
+    image: "images/baked-mac-and-cheese.jpg",
     source: "https://www.momontimeout.com/best-homemade-baked-mac-and-cheese-recipe/",
     ingredients: [
       "16 oz elbow macaroni",
@@ -130,6 +133,7 @@ const RECIPES = [
     emoji: "🌽",
     time: "45 min",
     servings: "4–6 bowls",
+    image: "images/ground-beef-esquites-bowls.jpg",
     ingredients: [
       "2–3 sweet potatoes, diced",
       "Olive oil, salt & pepper, for the potatoes",
@@ -166,6 +170,7 @@ const RECIPES = [
     emoji: "🌮",
     time: "45 min",
     servings: "13 cups",
+    image: "images/creamy-chicken-tortilla-soup.jpg",
     source: "https://thecozycook.com/creamy-chicken-tortilla-soup/",
     ingredients: [
       "2 tbsp butter",
@@ -203,6 +208,7 @@ const RECIPES = [
     emoji: "🌶️",
     time: "1 hr 5 min",
     servings: "8 servings",
+    image: "images/the-best-chili.jpg",
     source: "https://www.spendwithpennies.com/the-best-chili-recipe/",
     ingredients: [
       "2 lbs lean ground beef",
@@ -237,6 +243,7 @@ const RECIPES = [
     emoji: "🍜",
     time: "40 min",
     servings: "8 servings",
+    image: "images/chicken-noodle-soup.jpg",
     source: "https://tastesbetterfromscratch.com/chicken-noodle-soup/",
     ingredients: [
       "1/2 tbsp butter",
@@ -269,6 +276,7 @@ const RECIPES = [
     emoji: "🍟",
     time: "1 hr 10 min",
     servings: "4 servings",
+    image: "images/air-fryer-garlic-parmesan-fries.jpg",
     source: "https://www.thechunkychef.com/air-fryer-garlic-parmesan-french-fries/",
     ingredients: [
       "4 medium-large russet potatoes, cut into 1/2-inch sticks",
@@ -298,6 +306,7 @@ const RECIPES = [
     emoji: "🥔",
     time: "1 hr 20 min",
     servings: "10–12 servings",
+    image: "images/scalloped-potatoes.jpg",
     source: "https://www.gimmesomeoven.com/scalloped-potatoes-recipe/",
     ingredients: [
       "3 tbsp butter",
@@ -332,6 +341,7 @@ const RECIPES = [
     emoji: "🥒",
     time: "5 min",
     servings: "4–6 servings",
+    image: "images/tzatziki-sauce.jpg",
     source: "https://www.loveandlemons.com/tzatziki-sauce/",
     ingredients: [
       "1/2 cup finely grated cucumber",
@@ -357,6 +367,7 @@ const RECIPES = [
     emoji: "🥗",
     time: "5 min",
     servings: "4–6 servings",
+    image: "images/italian-dressing.jpg",
     source: "https://www.loveandlemons.com/italian-dressing-recipe/",
     ingredients: [
       "6 tbsp extra-virgin olive oil",
