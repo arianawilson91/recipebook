@@ -124,6 +124,42 @@ const RECIPES = [
     notes: "Shred the cheese yourself from a block — pre-shredded cheese won't melt as creamy."
   },
   {
+    id: "ground-beef-esquites-bowls",
+    title: "Ground Beef Esquites Bowls",
+    category: "Dinner",
+    emoji: "🌽",
+    time: "45 min",
+    servings: "4–6 bowls",
+    ingredients: [
+      "2–3 sweet potatoes, diced",
+      "Olive oil, salt & pepper, for the potatoes",
+      "2 (15 oz) cans corn, drained",
+      "1 jalapeño, diced",
+      "1 serrano pepper, diced",
+      "1–2 avocados, diced",
+      "Handful of cilantro, chopped",
+      "1–2 limes, juiced",
+      "1 cup cottage cheese",
+      "A spoonful of mayo",
+      "Salt, to taste",
+      "Cotija cheese & Tajín (optional but worth it)",
+      "— Beef —",
+      "2 lbs ground beef",
+      "Onion powder, garlic powder, salt, pepper & paprika",
+      "1 packet Siete taco seasoning",
+      "1/4 cup water"
+    ],
+    steps: [
+      "Preheat the oven to 425°F. Toss the diced sweet potatoes with oil, salt, and pepper and bake 20–30 minutes, until tender and browned at the edges.",
+      "In a big bowl, combine the corn, jalapeño, serrano, avocado, cilantro, and lime juice.",
+      "Blend the cottage cheese with a spoonful of mayo until smooth, then stir it into the corn mixture. Salt to taste (add cotija and Tajín if you're feeling it) and pop the bowl in the fridge.",
+      "Brown the ground beef, seasoning with onion powder, garlic powder, salt, pepper, and paprika.",
+      "Stir in the taco seasoning packet with the water and mix well until coated and saucy.",
+      "To plate: sweet potatoes on the bottom, beef over top, and a generous scoop of the cold esquites to finish."
+    ],
+    notes: "From @HazaleaJonè on TikTok — the warm beef + cold creamy esquites combo is the whole point."
+  },
+  {
     id: "creamy-chicken-tortilla-soup",
     title: "Creamy Chicken Tortilla Soup",
     category: "Soups",
