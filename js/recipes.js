@@ -335,6 +335,47 @@ const RECIPES = [
     notes: "Grate the cheese fresh for the meltiest sauce. Assembles ahead — keeps 3 days in the fridge before baking."
   },
   {
+    id: "best-ever-pasta-salad",
+    title: "Best Ever Pasta Salad",
+    category: "Sides",
+    emoji: "🫑",
+    time: "30 min + chill",
+    servings: "about 20 cups",
+    image: "images/best-ever-pasta-salad.jpg",
+    source: "https://dashofsanity.com/best-ever-pasta-salad/",
+    ingredients: [
+      "1 lb pasta shells",
+      "1 cup cherry tomatoes, quartered",
+      "3 cups bell peppers, diced",
+      "2 cups English cucumber, sliced",
+      "1/2 cup fresh cilantro, chopped",
+      "1 cup green onions, chopped",
+      "1 1/2 cups mozzarella or Monterey Jack, cubed",
+      "3/4 cup feta cheese, crumbled",
+      "1 1/2 cups turkey pepperoni, quartered",
+      "— Cumin Vinaigrette —",
+      "3/4 cup extra virgin olive oil",
+      "1/4 cup red wine vinegar",
+      "1 tbsp fresh lemon juice",
+      "1 tbsp minced garlic",
+      "1 tbsp white sugar",
+      "1 tsp cumin",
+      "1 tsp oregano",
+      "1 tsp dried parsley",
+      "1 tsp Dijon mustard",
+      "1/2 tsp salt & 1/4 tsp pepper"
+    ],
+    steps: [
+      "Shake all the vinaigrette ingredients together in a sealed mason jar until blended, then refrigerate — this dressing is the whole personality of the salad.",
+      "Cook the pasta shells in salted water until al dente. Drain, rinse under cold water, toss with a little olive oil, and let cool.",
+      "Chop the tomatoes, peppers, cucumber, cilantro, and green onions into a large bowl.",
+      "Add the cooled pasta, mozzarella, feta, and turkey pepperoni.",
+      "Pour the dressing over everything and toss thoroughly.",
+      "Cover and chill several hours or overnight before serving — it gets better as it sits."
+    ],
+    notes: "My version: no corn, turkey pepperoni instead of salami, and feta added. Keeps 1–2 days ahead, perfect for parties."
+  },
+  {
     id: "tzatziki-sauce",
     title: "Tzatziki Sauce",
     category: "Sauces & Dressings",
