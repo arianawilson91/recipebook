@@ -41,7 +41,6 @@ function renderGrid() {
 
   grid.innerHTML = shown.map((recipe, i) => `
     <a class="recipe-card" href="recipe.html?id=${encodeURIComponent(recipe.id)}" style="--i: ${i}">
-      <span class="card-index">${String(i + 1).padStart(2, "0")}</span>
       ${cardMedia(recipe)}
       <div class="card-body">
         <span class="card-category">${recipe.category}</span>
