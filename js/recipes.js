@@ -389,5 +389,146 @@ const RECIPES = [
       "Stir in the Parmesan if using, then taste and adjust the salt and pepper."
     ],
     notes: "Keeps about 5 days in the fridge. A pinch of red pepper flakes gives it a nice kick."
+  },
+  {
+    id: "brownie-stuffed-chocolate-chip-cookies",
+    title: "Brownie Stuffed Chocolate Chip Cookies",
+    category: "Desserts",
+    emoji: "🍫",
+    time: "2 hrs",
+    servings: "15 large cookies",
+    image: "images/brownie-stuffed-chocolate-chip-cookies.jpg",
+    source: "https://bromabakery.com/brownie-stuffed-chocolate-chip-cookies/",
+    ingredients: [
+      "1 box brownie mix, baked per the package (Ghirardelli is the move)",
+      "— Cookie Dough —",
+      "3/4 cup unsalted butter, softened",
+      "1 cup brown sugar, packed",
+      "1/4 cup granulated sugar",
+      "1 egg",
+      "2 tsp vanilla extract",
+      "2 cups all-purpose flour",
+      "2 tsp cornstarch",
+      "1 tsp baking soda",
+      "1 tsp salt",
+      "1 cup bittersweet chocolate chips"
+    ],
+    steps: [
+      "Bake the brownies in an 8x8 pan per the package directions. Cool completely, then cut into 25 little squares.",
+      "Beat the softened butter with both sugars until light and fluffy, about 3 minutes. Mix in the egg and vanilla.",
+      "Fold in the flour, cornstarch, baking soda, salt, and chocolate chips.",
+      "Scoop 1 1/2 tablespoons of dough and flatten it slightly. Press a brownie square into a little disc, set it on top, and cap with another 1 1/2 tablespoons of dough. Pinch the edges shut and flatten to about 3/4 inch.",
+      "Chill the assembled cookies on parchment-lined sheets for at least 1 hour — don't skip it!",
+      "Bake at 350°F for about 15 minutes. They should look slightly underdone in the middle; they finish setting as they cool."
+    ],
+    notes: "A cookie with a fudgy brownie hiding inside. Underbake the brownies a touch for the gooiest centers."
+  },
+  {
+    id: "best-chocolate-chip-cookies",
+    title: "The Best Chocolate Chip Cookies",
+    category: "Desserts",
+    emoji: "🍪",
+    time: "1 hr 30 min",
+    servings: "15 cookies",
+    image: "images/best-chocolate-chip-cookies.jpg",
+    source: "https://bromabakery.com/best-chocolate-chip-cookies/",
+    ingredients: [
+      "3/4 cup unsalted butter",
+      "1 cup light brown sugar, packed",
+      "1/4 cup granulated sugar",
+      "1 egg + 1 egg yolk",
+      "1 tbsp pure vanilla extract",
+      "1 3/4 cups all-purpose flour",
+      "3/4 tsp baking soda",
+      "3/4 tsp kosher salt",
+      "1 1/4 cups semisweet or bittersweet chocolate chips",
+      "Flaky sea salt, for topping"
+    ],
+    steps: [
+      "Brown the butter over medium-low heat, stirring often, until golden with little brown bits, 5–7 minutes. Watch it closely — it burns fast. Cool about 5 minutes.",
+      "Mix the brown butter with both sugars, then beat in the egg, yolk, and vanilla until glossy.",
+      "Fold in the flour, baking soda, and salt just until no streaks remain — don't overmix.",
+      "Gently fold in the chocolate chips. Cover and chill at least 1 hour (overnight is even better).",
+      "Preheat the oven to 350°F. Scoop 1 1/2-ounce balls onto parchment-lined sheets, 2 inches apart.",
+      "Bake 12–13 minutes, until the edges are light golden but the centers still look soft.",
+      "Sprinkle with flaky sea salt and let them cool on the sheet a few minutes before moving."
+    ],
+    notes: "The centers should look a little underdone when they come out — that's the whole secret to the gooey middle."
+  },
+  {
+    id: "cinnamon-roll-cookies",
+    title: "Cinnamon Roll Cookies",
+    category: "Desserts",
+    emoji: "🍥",
+    time: "1 hr 30 min",
+    servings: "14 cookies",
+    image: "images/cinnamon-roll-cookies.jpg",
+    source: "https://bromabakery.com/cinnamon-roll-cookies/",
+    ingredients: [
+      "— Cookie Dough —",
+      "1/2 cup unsalted butter, room temperature",
+      "1/2 cup brown sugar, packed",
+      "1 tsp vanilla extract",
+      "1 egg, room temperature",
+      "1 1/4 cups all-purpose flour",
+      "1 tsp baking powder",
+      "1/4 tsp salt",
+      "1/2 tsp ground cinnamon",
+      "— Cinnamon Sugar Filling —",
+      "2 tbsp melted unsalted butter",
+      "1/4 cup brown sugar",
+      "2 tsp ground cinnamon",
+      "— Cream Cheese Frosting (optional) —",
+      "1 tbsp cream cheese",
+      "2 tbsp milk",
+      "1 cup powdered sugar",
+      "1 tsp vanilla extract",
+      "Pinch of salt"
+    ],
+    steps: [
+      "Beat the butter and brown sugar until fluffy, about 3 minutes, then add the egg and vanilla.",
+      "Mix in the flour, baking powder, cinnamon, and salt. Chill the dough 1 hour, until firm.",
+      "Roll the dough into a 10x8-inch rectangle on a floured surface.",
+      "Stir the filling together and spread it evenly over the dough.",
+      "Roll it up tightly from the long side, seal the edge, wrap in plastic, and freeze 10 minutes.",
+      "Preheat the oven to 350°F. Slice the log into 1/2-inch cookies and space 2 inches apart on parchment.",
+      "Bake about 10 minutes, until the edges brown and the centers are slightly underdone. Cool on a rack.",
+      "Whisk the frosting together (soften the cream cheese first) and drizzle over the cooled cookies."
+    ],
+    notes: "A cinnamon roll in cookie form. The dough log keeps in the freezer for 3 months — slice and bake whenever."
+  },
+  {
+    id: "chocolate-chip-skillet-cookie",
+    title: "Chocolate Chip Skillet Cookie",
+    category: "Desserts",
+    emoji: "🍨",
+    time: "50 min",
+    servings: "10 servings",
+    image: "images/chocolate-chip-skillet-cookie.jpg",
+    source: "https://bromabakery.com/chocolate-chip-skillet-cookie/",
+    ingredients: [
+      "1 1/4 cups unsalted butter, melted",
+      "1 1/2 cups brown sugar, packed",
+      "1/2 cup granulated sugar",
+      "2 eggs + 1 egg yolk, room temperature",
+      "1 tbsp vanilla extract",
+      "3 cups all-purpose flour",
+      "1 tsp baking soda",
+      "1/2 tsp baking powder",
+      "1 tsp sea salt, plus more for sprinkling",
+      "3 cups semi-sweet chocolate chips",
+      "1/2 cup walnuts, roughly chopped",
+      "Vanilla ice cream, for serving (non-negotiable)"
+    ],
+    steps: [
+      "Preheat the oven to 350°F and butter a 10-inch cast iron skillet generously.",
+      "Beat the melted butter with both sugars, then mix in the eggs, yolk, and vanilla.",
+      "Whisk the flour, salt, baking powder, and baking soda in a separate bowl. Mix half into the wet ingredients, then the rest, until just combined.",
+      "Fold in the chocolate chips and walnuts without overworking the dough.",
+      "Spread the dough evenly in the skillet.",
+      "Bake about 40 minutes, until the edges are golden and the center is puffed but still gooey.",
+      "Cool at least 15 minutes, then serve warm — straight from the skillet — with vanilla ice cream."
+    ],
+    notes: "Crispy edges, molten middle. This is the dessert you put in the center of the table with a pile of spoons."
   }
 ];
